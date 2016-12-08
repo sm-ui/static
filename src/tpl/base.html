@@ -1,0 +1,22 @@
+
+
+<template id="DocHeader">
+<div class="header">
+    <div class="logo"></div>
+    <ul class="link-list">
+        <li v-for="item in items" class="link">
+            <a :href="item.link" :class="{active: item.active}" @click="load(item)">{{item.name}}</a>
+        </li>
+    </ul>
+</div>
+</template>
+
+<template id="SideBar">
+<div class="side-bar">
+    <ul>
+        <li v-for="item in items" class="link">
+            <a :href="item.link" :class="{active: item.active}" @click="load(item)">{{item.name}}</a>
+        </li>
+    </ul>
+</div>
+</template>

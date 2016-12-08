@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.date-picker {
+    display: inline-block;
+    display: inline-block;
+    border: 1px solid #EEE;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.button,
+button {
+    box-sizing: border-box;
+    height: 30px;
+    min-width: 80px;
+    padding: 0 8px;
+    border-radius: 3px;
+    border: 1px solid #c8c8c8;
+    display: inline-block;
+    background: linear-gradient(#ffffff, #ebebeb);
+    font-size: 13px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #333;
+}
+
+#header-wrapper {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #2f2f2f;
+    border-bottom: 3px inset #000;
+}
+
+#content-wrapper {
+    margin-top: 50px;
+    position: relative;
+}
+
+#p-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    min-height: 90vh;
+    border-right: 1px solid #DDD;
+}
+
+#p-right {
+    margin-left: 210px;
+    padding-top: 10px;
+}
+
+.header li {
+    display: inline-block;
+    line-height: 45px;
+    border-right: 1px solid #2f2f2f;
+    min-width: 6em;
+    margin-left: 1px;
+    position: relative;
+}
+
+.header .link a {
+    line-height: 45px;
+    color: #FFF;
+}
+
+.header .active,
+.header li a:hover {
+    color: #ff9247;
+    border-bottom: 1px solid #ff9247;
+    background: linear-gradient(#333, #000);
+}
+
+.side-bar .link a {
+    line-height: 30px;
+    width: 100%;
+    display: block;
+    color: #333;
+    border-bottom: 1px solid #FFF;
+}
+
+.side-bar .link a:visited {
+    color: inherit;
+}
+
+.side-bar li:hover {
+    color: blue;
+}
+
+.side-bar a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.side-bar {
+    padding: 20px 10px;
+}
+
+.header .link-list {
+    display: inline-block;
+    height: 45px;
+    vertical-align: top;
+}
+
+.header .link a {
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+    height: 45px;
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+
+.form {
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 60%;
+    margin: 10px auto;
+}
+
+.seg-line {
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.seg-line label {
+    min-width: 6em;
+    display: inline-block;
+}

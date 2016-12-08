@@ -1,0 +1,51 @@
+<template id="ContentForm">
+<div class="content-form">
+    <form class="form">
+        <p class="seg-line">
+            <label>姓名</label><input type="text" name="">
+        </p>
+        <p class="seg-line">
+            <button class="button" type="submit" @click="submit">提交</button>
+        </p>
+    </form>
+    <div>
+        <rich-table :params="tableConf"></rich-table>
+    </div>
+</div>
+</template>
+
+<template id="form1">
+<div class="content-form">
+    <form class="form">
+        <p class="seg-line">
+            <label>姓名</label><input type="text" name="username">
+        </p>
+        <p class="seg-line">
+            <label>密码</label><input type="password" name="password">
+        </p>
+        <p class="seg-line">
+            <label>工号</label><input type="number" name="cardId">
+        </p>
+        <p class="seg-line">
+            <button type="submit" @click="submit">提交</button>
+        </p>
+    </form>
+</div>
+</template>
+
+<template id="form2">
+<div class="content-form">
+    <div>
+        <drop-list>
+            <ul>
+                <li>删除</li>
+                <li>编辑</li>
+            </ul>
+        </drop-list>
+        <date-picker></date-picker>
+    </div>
+    <div>
+        <rich-table :params="tableConf"></rich-table>
+    </div>
+</div>
+</template>
